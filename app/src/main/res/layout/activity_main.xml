@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/menubar"
+        layout="@layout/menubar" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/menubar"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  This is a sample android application to workout the new things which are found from the sample applications."
+            android:id="@+id/textView"
+            android:textColor="#000000"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+    </LinearLayout>
+
+</RelativeLayout>
